@@ -9,48 +9,71 @@
 			}
 
 			a { text-decoration: none; color:#c65911;}
+
+			#header {
+				width: 100%; 
+				opacity: 1; 
+				background-color: #EEEEEE; 
+				background-image: url('images/uq-great-court-daytime.jpg');
+				background-size: 100% 100%;
+				padding: 0px;
+				margin-right: 0px;
+			}
+
+			.content { 
+				padding-top: 20px;
+				width:850px; 
+				margin:auto; 
+				line-height: 25px;
+			}
 		</style>
 	</head>
 
-	<body style="width:850px; margin:auto; line-height: 25px;">
-		<br>
+	<body style="background-color:#EEEEEE; margin: 0px">
 		<!-- Menu bar -->
-		<table width="100%">
-			<tr>
-				<td align="left"><a class="active" href="#submit">Submission</a></td>
-				<td align="center"><a class="active" href="#register">Registration</a></td>
-				<td align="center"><a class="active" href="#schedule">Schedule</a></td>
-				<td align="right"><a class="active" href="#contact">Contact</a></td>
-			</tr>
-		</table>
+		<div style="width:100%; position: fixed; background-color:black; padding-top: 5px; padding-bottom: 5px">
+			<table style="width:850px; margin: auto">
+				<tr>
+					<td align="center"><a class="active" href="#overview">Overview</a></td>
+					<td align="center"><a class="active" href="#schedule">Schedule</a></td>
+					<td align="center"><a class="active" href="#submit">Submission</a></td>
+					<td align="center"><a class="active" href="#register">Registration</a></td>
+					<td align="center"><a class="active" href="#organizers">Organizers</a></td>
+					<td align="center"><a class="active" href="#contact">Contact</a></td>
+				</tr>
+			</table>
+		</div>
 		<!-- Header -->
-		<div class="header" align="center" style="background-color: #EEEEEE">
+		<div id=header align="center">
+			<br>
 			<hr>
 			<br>
-			<div style="color:#5b9bf5; font-size:40px; align: center; font-weight: bold">DMUU Workshop 2022</div>
-			<br>
-			<div style="font-size:35px; align: center; font-weight: bold; color: #646464; margin-bottom: 15px">
+			<div style="color:#FFFFFF; font-size:20px; align: center; font-weight: bold; margin-bottom: 30px">
+				Workshop on
+			</div>
+			<div style="color: #FFFFFF; font-size:40px; align: center; font-weight: bold; margin-bottom: 10px">
 				Decision Making under Uncertainty
 			</div>
-			<div style="font-size:30px; align: center; font-weight: bold; color: #646464; margin-bottom: 10px">
+			<div style="color: #FFFFFF; font-size:35px; align: center; font-weight: bold; margin-bottom: 30px">
 				A Multi-Disciplinary Perspective
 			</div>
-			<br>
 			<!--div>
 				Nan Ye · Hanna Kurniawati · Marcus Hoerger · Dirk Kroese · Jerzy Filar
 			</div>
 			<br-->
-			<div>
-				11 July 2022, on Zoom and at St Leos College in UQ
+			<div style="color: #FFFFFF; font-weight: bold">
+				11 July 2022, on Zoom and at St Leos' College in UQ
 			</div>
 			<br>
 			<hr>
 		</div>
 
+		<div class=content style="background-color:white; border: 1px gray; padding: 20px">
 		<br>
-		<br>
-		<!-- CFP -->
-		<div>
+		<!-- Overview -->
+		<div id=overview class=content>
+			<h1>Overview</h1>
+	
 			How do we make good decisions in the presence of uncertainty? This question arises in numerous
 			contexts, including natural resources management, games, and robot planning & control. The past
 			few decades have seen significant advances in decision-making under uncertainty. These range from
@@ -82,26 +105,25 @@
 		</div>
 
 		<!-- Schedule -->
-		<div id=schedule>
-			<h2>Schedule</h2>
+		<div id=schedule class=content>
+			<h1>Schedule</h1>
 			TBA
 		</div>
 
 
 		<!-- Submission -->
-		<div id=submit>
-			<h2>Submission</h2> 
+		<div id=submit class=content>
+			<h1>Submission</h1> 
 			Submit contributed talks at <a href="https://tinyurl.com/y47ez5a4">https://tinyurl.com/y47ez5a4</a>. 
 			Please still register using the registration link below.<br><br>
 
 			<b>Deadline for submission:</b> 17 June 2022<br>
 			<b>Notification of accepted submissions:</b> 21 June 2022<br>
 		</div>
-		</div>
 
 		<!-- Registration -->
-		<div id=register> 
-			<h2>Registration</h2>
+		<div id=register class=content> 
+			<h1>Registration</h1>
 			<div class="about-content">
 				Please register at 
 				<a href="https://tinyurl.com/y2erdlwh">https://tinyurl.com/y2erdlwh</a>. 
@@ -111,15 +133,15 @@
 		</div>
 
 		<!-- Contact -->
-		<div id=contact> 
-			<h2>Contact</h2>
+		<div id=contact class=content> 
+			<h1>Contact</h1>
 			<div class="about-content">
 				Please email <a href = "mailto: dmuu2022@gmail.com">dmuu2022@gmail.com</a> if you have any question about the workshop.<br><br>
 			</div>
 		</div>
 
-		<div>
-			<h2>Organizers</h2>
+		<div id=organizers class=content>
+			<h1>Organizers</h1>
 			Nan Ye<br>
 			Hanna Kurniawati<br>
 			Marcus Hoerger<br>
@@ -127,25 +149,23 @@
 			Jerzy Filar<br>
 		</div>
 
-			<div id=sponser> 
-				<h2>Sponsors</h2>
-				School of Mathematics and Physics, The University of Queensland<br>
-				The Australian Research Council
-				<!--<a>-->
-				<!--<img src="images\logo_matrix.png"-->
-				<!--alt="logo" style="max-height:80px;padding:10px;">-->
-				<!--</a>-->
-				<!--<a>-->
-				<!--<img src="images\AMSI.jpeg"-->
-				<!--alt="logo" style="max-height:80px;padding:10px">-->
-				<!--</a>-->
-				<!-- <p>MATRIX is a residential research institute for the mathematical sciences in Australia.</p>
-					<ul class="social">
-					<li><a href="https://twitter.com/Matrix_Inst"><i class="lni lni-twitter-original"></i></a></li>
-					</ul> -->
-			</div>
-
-
-
+		<div id=sponser class=content> 
+			<h1>Sponsors</h1>
+			The University of Queensland<br>
+			The Australian Research Council
+			<!--<a>-->
+			<!--<img src="images\logo_matrix.png"-->
+			<!--alt="logo" style="max-height:80px;padding:10px;">-->
+			<!--</a>-->
+			<!--<a>-->
+			<!--<img src="images\AMSI.jpeg"-->
+			<!--alt="logo" style="max-height:80px;padding:10px">-->
+			<!--</a>-->
+			<!-- <p>MATRIX is a residential research institute for the mathematical sciences in Australia.</p>
+				<ul class="social">
+				<li><a href="https://twitter.com/Matrix_Inst"><i class="lni lni-twitter-original"></i></a></li>
+				</ul> -->
+		</div>
+		</div>
 	</body>
 </html>
