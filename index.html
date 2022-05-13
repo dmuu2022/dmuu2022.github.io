@@ -1,6 +1,11 @@
 <!DOCTYPE html><!DOCTYPE html>
 <html>
 	<head>
+			<!--script>
+				window.addEventListener("hashchange", function () { 
+									window.scrollTo(window.scrollX, window.scrollY - 35); 
+								});
+			</script-->
 		<!--link rel="stylesheet" type="text/css" href="style.css"-->
 		<style>
 			* { 
@@ -15,6 +20,7 @@
 				opacity: 1; 
 				background-color: #EEEEEE; 
 				background-image: url('images/uq-great-court-daytime.jpg');
+				box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
 				background-size: 100% 100%;
 				padding: 0px;
 				margin-right: 0px;
@@ -25,6 +31,20 @@
 				width:850px; 
 				margin:auto; 
 				line-height: 25px;
+			}
+
+			.sectiontitle {
+				background-color:gray; 
+				width:100%; 
+				color: white; 
+				text-indent: 20px;
+				padding-bottom: 10px;
+				padding-top: 10px;
+			}
+
+			.sectioncontent {
+				padding-left: 20px;
+				padding-right: 20px;
 			}
 		</style>
 	</head>
@@ -59,113 +79,137 @@
 			</div>
 			<!--div>
 				Nan Ye · Hanna Kurniawati · Marcus Hoerger · Dirk Kroese · Jerzy Filar
-			</div>
-			<br-->
-			<div style="color: #FFFFFF; font-weight: bold">
-				11 July 2022, on Zoom and at St Leos' College in UQ
-			</div>
-			<br>
-			<hr>
-		</div>
+				</div>
+				<br-->
+				<div style="color: #FFFFFF; font-weight: bold">
+					11 July 2022, on Zoom and at St Leos' College in UQ
+				</div>
+				<br>
+				<hr>
+				</div>
 
-		<div class=content style="background-color:white; border: 1px gray; padding: 20px">
-		<br>
-		<!-- Overview -->
-		<div id=overview class=content>
-			<h1>Overview</h1>
-	
-			How do we make good decisions in the presence of uncertainty? This question arises in numerous
-			contexts, including natural resources management, games, and robot planning & control. The past
-			few decades have seen significant advances in decision-making under uncertainty. These range from
-			new domain-independent methods in areas such as artificial intelligence, statistics, operations
-			research, robot planning, and control theory, to novel domain-specific methods in fields such as
-			ecology, fisheries, economics, and mathematical finance. Unfortunately, progress in one domain
-			may often be easily overlooked by researchers from another community. <br> <br>
-			This workshop aims to provide a multidisciplinary forum for researchers from disparate fields to
-			discuss recent advances in decision making, identify research challenges, and explore potential
-			collaborations. <br> <br>
-			We invite contributed talks on topics including but not limited to the following:
-			<table BORDER=0>
-				<!--table class="table" style="color:#38424D"-->
-				<tr><td><li>Decision models (e.g., Markov Decision Processes (MDPs), POMDPs)</li></td></tr>
-				<tr><td><li>Decision theory (e.g., expected utility theory, bounded rationality)</li></td></tr>
-				<tr><td><li>Planning under uncertainty</li></td></tr>
-				<tr><td><li>Reinforcement learning</li></td></tr>
-				<tr><td><li>Stochastic control (e.g., LQG, robust control)</li></td></tr>
-				<tr><td><li>Operations research</li></td></tr>
-				<tr><td><li>Applications (e.g., natural resource management, robot autonomy, pandemic management, natural disaster response, portfolio management)</li></td></tr>        
-			</table>
-			<br>
+				<div class=content style="background-color:white; border: 1px gray">
 
-			We also invite submissions of original research articles to a <b>special issue of the Annals of
-				Operations Research</b>, which is on the same topic as the workshop. A CFP for the special issue will
-			be forthcoming. <br> <br>
+					<!-- Overview -->
+					<div id=overview class=content>
+						<h1 class=sectiontitle>Overview</h1>
+						<!--h1>Overview</h1-->
 
-			Register using the link below to join us in the workshop.
-		</div>
+						<div class=sectioncontent>
+							How do we make good decisions in the presence of uncertainty? This question arises in numerous
+							contexts, including natural resources management, games, and robot planning & control. The past
+							few decades have seen significant advances in decision-making under uncertainty. These range from
+							new domain-independent methods in areas such as artificial intelligence, statistics, operations
+							research, robot planning, and control theory, to novel domain-specific methods in fields such as
+							ecology, fisheries, economics, and mathematical finance. Unfortunately, progress in one domain
+							may often be easily overlooked by researchers from another community. <br> <br>
+							This workshop aims to provide a multidisciplinary forum for researchers from disparate fields to
+							discuss recent advances in decision making, identify research challenges, and explore potential
+							collaborations. <br> <br>
+							We invite contributed talks on topics including but not limited to the following:
+							<table BORDER=0>
+								<!--table class="table" style="color:#38424D"-->
+								<tr><td><li>Decision models (e.g., Markov Decision Processes (MDPs), POMDPs)</li></td></tr>
+								<tr><td><li>Decision theory (e.g., expected utility theory, bounded rationality)</li></td></tr>
+								<tr><td><li>Planning under uncertainty</li></td></tr>
+								<tr><td><li>Reinforcement learning</li></td></tr>
+								<tr><td><li>Stochastic control (e.g., LQG, robust control)</li></td></tr>
+								<tr><td><li>Operations research</li></td></tr>
+								<tr><td><li>Applications (e.g., natural resource management, robot autonomy, pandemic management, natural disaster response, portfolio management)</li></td></tr>        
+							</table>
+							<br>
 
-		<!-- Schedule -->
-		<div id=schedule class=content>
-			<h1>Schedule</h1>
-			TBA
-		</div>
+							We also invite submissions of original research articles to a <b>special issue of the Annals of
+								Operations Research</b>, which is on the same topic as the workshop. A CFP for the special issue will
+							be forthcoming. <br> <br>
+
+							Register using the link below to join us in the workshop.
+						</div>
+					</div>
+
+					<!-- Schedule -->
+					<div id=schedule class=content>
+						<h1 class=sectiontitle>Schedule</h1>
+
+						<div class=sectioncontent>
+							TBA
+						</div>
+					</div>
 
 
-		<!-- Submission -->
-		<div id=submit class=content>
-			<h1>Submission</h1> 
-			Submit contributed talks at <a href="https://tinyurl.com/y47ez5a4">https://tinyurl.com/y47ez5a4</a>. 
-			Please still register using the registration link below.<br><br>
+					<!-- Submission -->
+					<div id=submit class=content>
+						<h1 class=sectiontitle>Submission</h1> 
 
-			<b>Deadline for submission:</b> 17 June 2022<br>
-			<b>Notification of accepted submissions:</b> 21 June 2022<br>
-		</div>
+						<div class=sectioncontent>
+							Submit contributed talks at <a href="https://tinyurl.com/y47ez5a4">https://tinyurl.com/y47ez5a4</a>. 
+							Please still register using the registration link below.<br><br>
 
-		<!-- Registration -->
-		<div id=register class=content> 
-			<h1>Registration</h1>
-			<div class="about-content">
-				Please register at 
-				<a href="https://tinyurl.com/y2erdlwh">https://tinyurl.com/y2erdlwh</a>. 
-				If you are attending in-person, please register before 4 July for catering purpose. Registration for in-person
-				attendance may close before 4 July if we reach the maximum capacity. <br><br>
-			</div>
-		</div>
+							<b>Deadline for submission:</b> 17 June 2022<br>
+							<b>Notification of accepted submissions:</b> 21 June 2022<br>
+						</div>
+					</div>
 
-		<!-- Contact -->
-		<div id=contact class=content> 
-			<h1>Contact</h1>
-			<div class="about-content">
-				Please email <a href = "mailto: dmuu2022@gmail.com">dmuu2022@gmail.com</a> if you have any question about the workshop.<br><br>
-			</div>
-		</div>
+					<!-- Registration -->
+					<div id=register class=content> 
+						<h1 class=sectiontitle>Registration</h1>
+						<div class=sectioncontent>
+							Please register at 
+							<a href="https://tinyurl.com/y2erdlwh">https://tinyurl.com/y2erdlwh</a>. 
+							If you are attending in-person, please register before 4 July for catering purpose. Registration for in-person
+							attendance may close before 4 July if we reach the maximum capacity. 
+						</div>
+					</div>
 
-		<div id=organizers class=content>
-			<h1>Organizers</h1>
-			Nan Ye<br>
-			Hanna Kurniawati<br>
-			Marcus Hoerger<br>
-			Dirk Kroese<br>
-			Jerzy Filar<br>
-		</div>
+					<!-- Organizers -->
+					<div id=organizers class=content>
+						<h1 class=sectiontitle>Organizers</h1>
 
-		<div id=sponser class=content> 
-			<h1>Sponsors</h1>
-			The University of Queensland<br>
-			The Australian Research Council
-			<!--<a>-->
-			<!--<img src="images\logo_matrix.png"-->
-			<!--alt="logo" style="max-height:80px;padding:10px;">-->
-			<!--</a>-->
-			<!--<a>-->
-			<!--<img src="images\AMSI.jpeg"-->
-			<!--alt="logo" style="max-height:80px;padding:10px">-->
-			<!--</a>-->
-			<!-- <p>MATRIX is a residential research institute for the mathematical sciences in Australia.</p>
-				<ul class="social">
-				<li><a href="https://twitter.com/Matrix_Inst"><i class="lni lni-twitter-original"></i></a></li>
-				</ul> -->
-		</div>
-		</div>
+						<div class=sectioncontent>
+							Nan Ye<br>
+							Hanna Kurniawati<br>
+							Marcus Hoerger<br>
+							Dirk Kroese<br>
+							Jerzy Filar<br>
+						</div>
+					</div>
+
+					<!-- Contact -->
+					<div id=contact class=content> 
+						<h1 class=sectiontitle>Contact</h1>
+						<div class=sectioncontent>
+							Please email <a href = "mailto: dmuu2022@gmail.com">dmuu2022@gmail.com</a> if you have any question about the workshop.
+						</div>
+					</div>
+
+
+					<div id=sponser class=content> 
+						<h1 class=sectiontitle>Sponsors</h1>
+						<div class=sectioncontent>
+							The University of Queensland<br>
+							The Australian Research Council
+						</div>
+						<!--<a>-->
+						<!--<img src="images\logo_matrix.png"-->
+						<!--alt="logo" style="max-height:80px;padding:10px;">-->
+						<!--</a>-->
+						<!--<a>-->
+						<!--<img src="images\AMSI.jpeg"-->
+						<!--alt="logo" style="max-height:80px;padding:10px">-->
+						<!--</a>-->
+						<!-- <p>MATRIX is a residential research institute for the mathematical sciences in Australia.</p>
+							<ul class="social">
+							<li><a href="https://twitter.com/Matrix_Inst"><i class="lni lni-twitter-original"></i></a></li>
+							</ul> -->
+					</div>
+
+					<!--div id=footer class=content>
+						<hr>
+						<div style="text-align:center; padding:20px; font-weight: bold"> 
+							Decision Making under Uncertainty: A Multi-Disciplinary Perspective<br>
+							11 July 2022, on Zoom and at St Leos' College in UQ
+						</div>
+					</div>
+				</div-->
 	</body>
 </html>
